@@ -1,0 +1,15 @@
+/Users/eunbumkim/Documents/Practice/csharp/Tutoring/ex02/ex02/bin/Debug/net7.0/ex02
+/Users/eunbumkim/Documents/Practice/csharp/Tutoring/ex02/ex02/bin/Debug/net7.0/ex02.deps.json
+/Users/eunbumkim/Documents/Practice/csharp/Tutoring/ex02/ex02/bin/Debug/net7.0/ex02.runtimeconfig.json
+/Users/eunbumkim/Documents/Practice/csharp/Tutoring/ex02/ex02/bin/Debug/net7.0/ex02.dll
+/Users/eunbumkim/Documents/Practice/csharp/Tutoring/ex02/ex02/bin/Debug/net7.0/ex02.pdb
+/Users/eunbumkim/Documents/Practice/csharp/Tutoring/ex02/ex02/obj/Debug/net7.0/ex02.csproj.AssemblyReference.cache
+/Users/eunbumkim/Documents/Practice/csharp/Tutoring/ex02/ex02/obj/Debug/net7.0/ex02.GeneratedMSBuildEditorConfig.editorconfig
+/Users/eunbumkim/Documents/Practice/csharp/Tutoring/ex02/ex02/obj/Debug/net7.0/ex02.AssemblyInfoInputs.cache
+/Users/eunbumkim/Documents/Practice/csharp/Tutoring/ex02/ex02/obj/Debug/net7.0/ex02.AssemblyInfo.cs
+/Users/eunbumkim/Documents/Practice/csharp/Tutoring/ex02/ex02/obj/Debug/net7.0/ex02.csproj.CoreCompileInputs.cache
+/Users/eunbumkim/Documents/Practice/csharp/Tutoring/ex02/ex02/obj/Debug/net7.0/ex02.dll
+/Users/eunbumkim/Documents/Practice/csharp/Tutoring/ex02/ex02/obj/Debug/net7.0/refint/ex02.dll
+/Users/eunbumkim/Documents/Practice/csharp/Tutoring/ex02/ex02/obj/Debug/net7.0/ex02.pdb
+/Users/eunbumkim/Documents/Practice/csharp/Tutoring/ex02/ex02/obj/Debug/net7.0/ex02.genruntimeconfig.cache
+/Users/eunbumkim/Documents/Practice/csharp/Tutoring/ex02/ex02/obj/Debug/net7.0/ref/ex02.dll
