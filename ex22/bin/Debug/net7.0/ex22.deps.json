@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "ex22/1.0.0": {
+        "dependencies": {
+          "ex14": "1.0.0"
+        },
+        "runtime": {
+          "ex22.dll": {}
+        }
+      },
+      "ex14/1.0.0": {
+        "runtime": {
+          "ex14.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ex22/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ex14/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
