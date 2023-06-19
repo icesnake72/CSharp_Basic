@@ -1,0 +1,15 @@
+/Users/eunbumkim/Documents/Practice/csharp/Tutoring/Tutorial/ex24/bin/Debug/net7.0/ex24
+/Users/eunbumkim/Documents/Practice/csharp/Tutoring/Tutorial/ex24/bin/Debug/net7.0/ex24.deps.json
+/Users/eunbumkim/Documents/Practice/csharp/Tutoring/Tutorial/ex24/bin/Debug/net7.0/ex24.runtimeconfig.json
+/Users/eunbumkim/Documents/Practice/csharp/Tutoring/Tutorial/ex24/bin/Debug/net7.0/ex24.dll
+/Users/eunbumkim/Documents/Practice/csharp/Tutoring/Tutorial/ex24/bin/Debug/net7.0/ex24.pdb
+/Users/eunbumkim/Documents/Practice/csharp/Tutoring/Tutorial/ex24/obj/Debug/net7.0/ex24.csproj.AssemblyReference.cache
+/Users/eunbumkim/Documents/Practice/csharp/Tutoring/Tutorial/ex24/obj/Debug/net7.0/ex24.GeneratedMSBuildEditorConfig.editorconfig
+/Users/eunbumkim/Documents/Practice/csharp/Tutoring/Tutorial/ex24/obj/Debug/net7.0/ex24.AssemblyInfoInputs.cache
+/Users/eunbumkim/Documents/Practice/csharp/Tutoring/Tutorial/ex24/obj/Debug/net7.0/ex24.AssemblyInfo.cs
+/Users/eunbumkim/Documents/Practice/csharp/Tutoring/Tutorial/ex24/obj/Debug/net7.0/ex24.csproj.CoreCompileInputs.cache
+/Users/eunbumkim/Documents/Practice/csharp/Tutoring/Tutorial/ex24/obj/Debug/net7.0/ex24.dll
+/Users/eunbumkim/Documents/Practice/csharp/Tutoring/Tutorial/ex24/obj/Debug/net7.0/refint/ex24.dll
+/Users/eunbumkim/Documents/Practice/csharp/Tutoring/Tutorial/ex24/obj/Debug/net7.0/ex24.pdb
+/Users/eunbumkim/Documents/Practice/csharp/Tutoring/Tutorial/ex24/obj/Debug/net7.0/ex24.genruntimeconfig.cache
+/Users/eunbumkim/Documents/Practice/csharp/Tutoring/Tutorial/ex24/obj/Debug/net7.0/ref/ex24.dll
