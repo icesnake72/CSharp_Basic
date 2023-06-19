@@ -1,0 +1,15 @@
+/Users/eunbumkim/Documents/Practice/csharp/Tutoring/Tutorial/ex25/bin/Debug/net7.0/ex25
+/Users/eunbumkim/Documents/Practice/csharp/Tutoring/Tutorial/ex25/bin/Debug/net7.0/ex25.deps.json
+/Users/eunbumkim/Documents/Practice/csharp/Tutoring/Tutorial/ex25/bin/Debug/net7.0/ex25.runtimeconfig.json
+/Users/eunbumkim/Documents/Practice/csharp/Tutoring/Tutorial/ex25/bin/Debug/net7.0/ex25.dll
+/Users/eunbumkim/Documents/Practice/csharp/Tutoring/Tutorial/ex25/bin/Debug/net7.0/ex25.pdb
+/Users/eunbumkim/Documents/Practice/csharp/Tutoring/Tutorial/ex25/obj/Debug/net7.0/ex25.csproj.AssemblyReference.cache
+/Users/eunbumkim/Documents/Practice/csharp/Tutoring/Tutorial/ex25/obj/Debug/net7.0/ex25.GeneratedMSBuildEditorConfig.editorconfig
+/Users/eunbumkim/Documents/Practice/csharp/Tutoring/Tutorial/ex25/obj/Debug/net7.0/ex25.AssemblyInfoInputs.cache
+/Users/eunbumkim/Documents/Practice/csharp/Tutoring/Tutorial/ex25/obj/Debug/net7.0/ex25.AssemblyInfo.cs
+/Users/eunbumkim/Documents/Practice/csharp/Tutoring/Tutorial/ex25/obj/Debug/net7.0/ex25.csproj.CoreCompileInputs.cache
+/Users/eunbumkim/Documents/Practice/csharp/Tutoring/Tutorial/ex25/obj/Debug/net7.0/ex25.dll
+/Users/eunbumkim/Documents/Practice/csharp/Tutoring/Tutorial/ex25/obj/Debug/net7.0/refint/ex25.dll
+/Users/eunbumkim/Documents/Practice/csharp/Tutoring/Tutorial/ex25/obj/Debug/net7.0/ex25.pdb
+/Users/eunbumkim/Documents/Practice/csharp/Tutoring/Tutorial/ex25/obj/Debug/net7.0/ex25.genruntimeconfig.cache
+/Users/eunbumkim/Documents/Practice/csharp/Tutoring/Tutorial/ex25/obj/Debug/net7.0/ref/ex25.dll
