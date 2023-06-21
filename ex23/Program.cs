@@ -1,4 +1,9 @@
 ﻿namespace ex23;
+
+
+public delegate void PersonDelegate(string message);
+
+
 class Program
 {
     // c#에서 Thread 
@@ -9,8 +14,10 @@ class Program
         //DateTime dateTime = new DateTime(1900, 6, 15);
         //Person yoo = new("유재석", dateTime);
 
+
+
         // 첫번째 인물
-        Person yoo = new("유재석", new DateTime(1972, 6, 15));
+        Person yoo = new("유재석", new DateTime(1972, 6, 15), PersonMessage);
 
         // 이름 출력하기
         // Console.WriteLine(yoo.GetName());   // oldest format
@@ -24,7 +31,7 @@ class Program
 
 
         // 두번째 인물 
-        Person jeon = new("전지현", new DateTime(1980, 6, 15));
+        Person jeon = new("전지현", new DateTime(1980, 6, 15), PersonMessage);
 
         // 이름 출력하기
         // Console.WriteLine(yoo.GetName());   // oldest format
@@ -38,23 +45,36 @@ class Program
 
 
         // 세번째 인물
-        Person iyou = new("아이유", new(2010, 6, 15));
+        Person iyou = new("아이유", new(2010, 6, 15), PersonMessage);
         Console.WriteLine(iyou);
 
 
         // 네번째 인물
-        Person rapmon = new("랩몬", new(2013, 6, 15));
+        Person rapmon = new("랩몬", new(2013, 6, 15), PersonMessage);
         Console.WriteLine(rapmon);
 
-        // 가족 구성원 만들기 
-        Family yoosFam = new(yoo, jeon);
-        yoosFam.Put(iyou);
-        yoosFam.Put(rapmon);
-        Console.WriteLine("유재석 가족의 구성원은 ... ");
-        yoosFam.ShowMembers();
+        yoo.Start();
 
-        Console.WriteLine($"아빠 : {yoosFam.Father}");
-        Console.WriteLine($"엄마 : {yoosFam.Mother}");
+        for(int i=0; i<10; i++)
+        {
+            Thread.Sleep(1000);
+            if (i > 5)
+                yoo.MaybeDie();
+        }
+            
+
+        yoo.Kill();
+        
+
+        //// 가족 구성원 만들기 
+        //Family yoosFam = new(yoo, jeon);
+        //yoosFam.Put(iyou);
+        //yoosFam.Put(rapmon);
+        //Console.WriteLine("유재석 가족의 구성원은 ... ");
+        //yoosFam.ShowMembers();
+
+        //Console.WriteLine($"아빠 : {yoosFam.Father}");
+        //Console.WriteLine($"엄마 : {yoosFam.Mother}");
 
         // 유재석의 가족찾기
 
@@ -62,6 +82,12 @@ class Program
 
         // 
 
+    }
+
+
+    static void PersonMessage(string message)
+    {
+        Console.WriteLine(message);
     }
 }
 

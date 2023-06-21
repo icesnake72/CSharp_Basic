@@ -1,23 +1,39 @@
 ﻿using System;
 namespace ex23
 {
+	public class PersonMessage
+	{
+	}
+
 	public class Person
 	{
 		protected string? name;		// 이름 필드
-        protected DateTime birth;	// 생년월일 필드
+        protected DateTime birth;   // 생년월일 필드
 
-		// default constructor
-		public Person()
+		protected bool loop;
+        ManualResetEvent manualResetEvent = new ManualResetEvent(false);
+
+		bool dead;
+
+		PersonDelegate? myMessage;
+
+        // default constructor
+        public Person()
 		{
 			name = "Unknown";
 			birth = new(1800, 1, 1);
-		}
+
+			loop = false;
+			dead = false;
+			myMessage = null;
+        }
 
 		// option, customized constructor
-		public Person(string name, DateTime dateOfBirth)
+		public Person(string name, DateTime dateOfBirth, PersonDelegate myMessage)
 		{
 			this.name = name;
 			birth = dateOfBirth;
+			this.myMessage = myMessage;
 		}
 
 		// method to set name field
@@ -77,6 +93,64 @@ namespace ex23
 				return (ushort)daysOfYear;
 			}
 		}
+
+
+		public void Start()
+		{
+			try
+			{
+                loop = true;
+                Thread thread = new Thread(Live);
+                thread.Start();
+            }
+			catch
+			{
+				Console.WriteLine("인생을 시작할 수 없습니다");
+			}			
+		}
+
+		public void Kill()
+		{
+			loop = false;
+
+			// Thread가 정상적으로 종료되기를 기다린다
+			manualResetEvent.WaitOne();
+			manualResetEvent.Reset();
+
+            Console.WriteLine($"{name}님의 인생이 종료되었습니다");
+        }
+
+		public void MaybeDie()
+		{
+            Console.WriteLine($"{name}님이 병에 걸릴 확율이 50% 입니다");
+
+            Random rnd = new Random();
+			int half = rnd.Next() % 2;
+			if (half == 1)
+			{
+                dead = true;
+				Console.WriteLine($"{name}님은 죽을겁니다.");
+            }				
+		}
+
+		protected virtual void Live()
+		{
+			while( loop )
+			{
+				Console.WriteLine($"{name}님의 인생은 오늘도 돌고 돕니다");
+				Thread.Sleep(1000);
+
+				if (dead == true)
+				{
+					if ( myMessage!=null )
+						myMessage($"{name}이 병에 걸려서 지금 죽습니다");
+                    break;
+                }
+					
+			}
+
+			manualResetEvent.Set();
+        }
 	}
 
 
