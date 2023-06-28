@@ -1,0 +1,15 @@
+/Users/eunbumkim/Documents/Practice/csharp/Tutoring/Tutorial/ex26/bin/Debug/net7.0/ex26
+/Users/eunbumkim/Documents/Practice/csharp/Tutoring/Tutorial/ex26/bin/Debug/net7.0/ex26.deps.json
+/Users/eunbumkim/Documents/Practice/csharp/Tutoring/Tutorial/ex26/bin/Debug/net7.0/ex26.runtimeconfig.json
+/Users/eunbumkim/Documents/Practice/csharp/Tutoring/Tutorial/ex26/bin/Debug/net7.0/ex26.dll
+/Users/eunbumkim/Documents/Practice/csharp/Tutoring/Tutorial/ex26/bin/Debug/net7.0/ex26.pdb
+/Users/eunbumkim/Documents/Practice/csharp/Tutoring/Tutorial/ex26/obj/Debug/net7.0/ex26.csproj.AssemblyReference.cache
+/Users/eunbumkim/Documents/Practice/csharp/Tutoring/Tutorial/ex26/obj/Debug/net7.0/ex26.GeneratedMSBuildEditorConfig.editorconfig
+/Users/eunbumkim/Documents/Practice/csharp/Tutoring/Tutorial/ex26/obj/Debug/net7.0/ex26.AssemblyInfoInputs.cache
+/Users/eunbumkim/Documents/Practice/csharp/Tutoring/Tutorial/ex26/obj/Debug/net7.0/ex26.AssemblyInfo.cs
+/Users/eunbumkim/Documents/Practice/csharp/Tutoring/Tutorial/ex26/obj/Debug/net7.0/ex26.csproj.CoreCompileInputs.cache
+/Users/eunbumkim/Documents/Practice/csharp/Tutoring/Tutorial/ex26/obj/Debug/net7.0/ex26.dll
+/Users/eunbumkim/Documents/Practice/csharp/Tutoring/Tutorial/ex26/obj/Debug/net7.0/refint/ex26.dll
+/Users/eunbumkim/Documents/Practice/csharp/Tutoring/Tutorial/ex26/obj/Debug/net7.0/ex26.pdb
+/Users/eunbumkim/Documents/Practice/csharp/Tutoring/Tutorial/ex26/obj/Debug/net7.0/ex26.genruntimeconfig.cache
+/Users/eunbumkim/Documents/Practice/csharp/Tutoring/Tutorial/ex26/obj/Debug/net7.0/ref/ex26.dll
