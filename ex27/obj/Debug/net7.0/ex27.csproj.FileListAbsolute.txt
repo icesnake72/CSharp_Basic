@@ -1,0 +1,15 @@
+/Users/eunbumkim/Documents/Practice/csharp/Tutoring/Tutorial/ex27/bin/Debug/net7.0/ex27
+/Users/eunbumkim/Documents/Practice/csharp/Tutoring/Tutorial/ex27/bin/Debug/net7.0/ex27.deps.json
+/Users/eunbumkim/Documents/Practice/csharp/Tutoring/Tutorial/ex27/bin/Debug/net7.0/ex27.runtimeconfig.json
+/Users/eunbumkim/Documents/Practice/csharp/Tutoring/Tutorial/ex27/bin/Debug/net7.0/ex27.dll
+/Users/eunbumkim/Documents/Practice/csharp/Tutoring/Tutorial/ex27/bin/Debug/net7.0/ex27.pdb
+/Users/eunbumkim/Documents/Practice/csharp/Tutoring/Tutorial/ex27/obj/Debug/net7.0/ex27.csproj.AssemblyReference.cache
+/Users/eunbumkim/Documents/Practice/csharp/Tutoring/Tutorial/ex27/obj/Debug/net7.0/ex27.GeneratedMSBuildEditorConfig.editorconfig
+/Users/eunbumkim/Documents/Practice/csharp/Tutoring/Tutorial/ex27/obj/Debug/net7.0/ex27.AssemblyInfoInputs.cache
+/Users/eunbumkim/Documents/Practice/csharp/Tutoring/Tutorial/ex27/obj/Debug/net7.0/ex27.AssemblyInfo.cs
+/Users/eunbumkim/Documents/Practice/csharp/Tutoring/Tutorial/ex27/obj/Debug/net7.0/ex27.csproj.CoreCompileInputs.cache
+/Users/eunbumkim/Documents/Practice/csharp/Tutoring/Tutorial/ex27/obj/Debug/net7.0/ex27.dll
+/Users/eunbumkim/Documents/Practice/csharp/Tutoring/Tutorial/ex27/obj/Debug/net7.0/refint/ex27.dll
+/Users/eunbumkim/Documents/Practice/csharp/Tutoring/Tutorial/ex27/obj/Debug/net7.0/ex27.pdb
+/Users/eunbumkim/Documents/Practice/csharp/Tutoring/Tutorial/ex27/obj/Debug/net7.0/ex27.genruntimeconfig.cache
+/Users/eunbumkim/Documents/Practice/csharp/Tutoring/Tutorial/ex27/obj/Debug/net7.0/ref/ex27.dll
