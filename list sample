@@ -1,0 +1,99 @@
+using System;
+using System.Collections.Generic;
+
+class Program
+{
+    static void Main(string[] args)
+    {
+        LinkedList<string> names = new LinkedList<string>();
+        names.AddLast("John");
+        names.AddLast("Mary");
+        names.AddLast("David");
+
+        Console.WriteLine("LinkedList Elements:");
+        LinkedListNode<string> current = names.First;
+        while (current != null)
+        {
+            Console.WriteLine(current.Value);
+            current = current.Next;   
+        }
+
+        // 특정 데이터 가져오기
+        int number = numbers.Find(n => n == 30);
+        Console.WriteLine("Found Number: " + number);
+
+        // 인덱스로 가져오기
+        int number = numbers[2];
+        Console.WriteLine("Number at Index 2: " + number);
+    }
+}
+
+
+
+
+
+using System;
+using System.Collections;
+
+class Program
+{
+    static void Main(string[] args)
+    {
+        ArrayList fruits = new ArrayList();
+        fruits.Add("Apple");
+        fruits.Add("Banana");
+        fruits.Add("Orange");
+
+        Console.WriteLine("ArrayList Elements:");
+        foreach (string fruit in fruits)
+        {
+            Console.WriteLine(fruit);
+        }
+        // 특정 데이터 가져오기
+        string fruit = (string)fruits.Find(f => f.Equals("Banana"));
+        Console.WriteLine("Found Fruit: " + fruit);      
+
+        // 인덱스로 가져오기
+        string fruit = (string)fruits[1];
+        Console.WriteLine("Fruit at Index 1: " + fruit);
+    }
+}
+
+
+
+using System;
+using System.Collections.Generic;
+
+class Program
+{
+    static void Main(string[] args)
+    {
+        List<int> numbers = new List<int>();
+        numbers.Add(10);
+        numbers.Add(20);
+        numbers.Add(30);
+
+        Console.WriteLine("List Elements:");
+        foreach (int number in numbers)
+        {
+            Console.WriteLine(number);
+        }
+
+        // 특정 데이터 가져오기
+        LinkedListNode<string> node = names.Find("Mary");
+        if (node != null)
+        {
+            Console.WriteLine("Found Name: " + node.Value);
+        }
+
+
+        // 인덱스로 가져오기
+        LinkedListNode<string> node = names.First;
+        for (int i = 0; i < 2; i++)
+        {
+            node = node.Next;
+        }
+
+        Console.WriteLine("Name at Index 2: " + node.Value);
+    }
+}
