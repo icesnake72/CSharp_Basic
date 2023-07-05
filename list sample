@@ -97,3 +97,23 @@ class Program
         Console.WriteLine("Name at Index 2: " + node.Value);
     }
 }
+
+
+
+// 딕셔너리 샘플
+using System;
+using System.Collections.Generic;
+
+class Program
+{
+    static void Main(string[] args)
+    {
+        Dictionary<string, int> ages = new Dictionary<string, int>();
+        ages["John"] = 25;
+        ages["Mary"] = 30;
+        ages["David"] = 35;
+
+        int age = ages["Mary"];
+        Console.WriteLine("Mary's Age: " + age);
+    }
+}
