@@ -5,22 +5,22 @@ namespace ex27
 	{
 		string srcPath;
 		string destPath;
-        DelegateProc? callbackProc;
+        	DelegateProc? callbackProc;
 
         public FileCopy()
-		{
-			srcPath = string.Empty;
-			destPath = string.Empty;
-            callbackProc = null;
+	{
+		srcPath = string.Empty;
+		destPath = string.Empty;
+            	callbackProc = null;
         }
 
-		public async Task StartCopy(string src, string dest, DelegateProc callbackProc)
-		{
+	public async Task StartCopy(string src, string dest, DelegateProc callbackProc)
+	{
             await CopyProgress(src, dest, callbackProc);
         }
 
         private async Task CopyProgress(string srcFile, string destFile, DelegateProc callbackProc)
-		{
+	{
             FileInfo fileInfo = new FileInfo(srcFile);
             if (!fileInfo.Exists)
                 return;
